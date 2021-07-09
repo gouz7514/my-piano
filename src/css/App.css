@@ -17,15 +17,24 @@ body {
 .swiper-container {
   width: 50%;
   padding-top: 100px !important;
-  padding-bottom: 50px;
   overflow: unset !important;
 }
 
 .swiper-slide {
+  width: 500px !important;
+  height: 500px !important;
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+}
+
+.img-container {
+  height: 100%;
+  background-color:burlywood;
+  overflow: hidden;
+}
+
+#lalaland {
+  margin-top: -150px;
 }
 
 .swiper-slide img {

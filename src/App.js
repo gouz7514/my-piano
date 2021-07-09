@@ -28,7 +28,9 @@ function App() {
       "slideShadows": true
     }} pagination={true} className="mySwiper">
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <div className="img-container">
+            <img id="lalaland" src="/images/lalaland.jpeg" alt="lalaland"></img>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
