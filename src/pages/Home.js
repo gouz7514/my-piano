@@ -30,33 +30,49 @@ function Home() {
         <SwiperSlide>
           <div className="img-container">
             <a href="/Lalaland">
-              <img img id="lalaland" src="/images/lalaland.jpeg" alt="lalaland"></img>
+              <img id="lalaland" src="/images/lalaland.jpeg" alt="lalaland"></img>
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <div className="img-container">
+            인생의 회전목마
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <div className="img-container">
+            너에게 난 나에게 넌
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <div className="img-container">
+
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <div className="img-container">
+
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <div className="img-container">
+
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <div className="img-container">
+
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <div className="img-container">
+
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <div className="img-container">
+
+          </div>
         </SwiperSlide>
       </Swiper>
     </>
