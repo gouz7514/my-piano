@@ -36,37 +36,16 @@ function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            인생의 회전목마
+            <a href="/MerryGoRound">
+              <img id="merrygoround" src="/images/merrygoround.jpeg" alt="merrygoround"></img>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            너에게 난 나에게 넌
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="img-container">
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="img-container">
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="img-container">
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="img-container">
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="img-container">
-
+            <a href="/HarryPotter">
+              <img id="harrypotter" src="/images/harrypotter.jpeg" alt="harrypotter"></img>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
