@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Movie.css'
 
-function MerryGoRound() {
+function CinemaParadiso() {
   function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     if (!audio) return;
@@ -14,10 +14,10 @@ function MerryGoRound() {
   return (
     <div className="movie-container">
       <div className="movie-title">
-        <h1>하울의 움직이는 성</h1>
+        <h1>시네마 천국</h1>
       </div>
     </div>
   )
 }
 
-export default MerryGoRound
+export default CinemaParadiso

@@ -36,8 +36,8 @@ function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/MerryGoRound">
-              <img id="merrygoround" src="/images/merrygoround.jpeg" alt="merrygoround"></img>
+            <a href="/HowlsMovingCastle">
+              <img id="howlsmovingcaslte" src="/images/howlsmovingcastle.jpeg" alt="howlsmovingcastle"></img>
             </a>
           </div>
         </SwiperSlide>
@@ -50,7 +50,16 @@ function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-
+            <a href="/CinemaParadiso">
+              <img id="cinemaparadiso" src="/images/cinemaparadiso.jpeg" alt="cinemaparadiso"></img>
+            </a>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="img-container">
+            <a href="/TheClassic">
+              <img id="theclassic" src="/images/theclassic.jpeg" alt="theclassic"></img>
+            </a>
           </div>
         </SwiperSlide>
       </Swiper>

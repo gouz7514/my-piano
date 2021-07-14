@@ -3,34 +3,55 @@ import '../css/Movie.css'
 
 function Lalaland() {
   function playSound(e) {
+    const movie = document.querySelector('.movie')
+
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     if (!audio) return;
+
+    if (!movie.classList.contains('lalaland')) {
+      movie.classList.add('lalaland')
+    }
+
     audio.currentTime = 0;
     audio.play();
   }
 
   window.addEventListener('keydown', playSound)
   return (
-    <div className="movie-container">
-      <div className="movie-title">
-        <h1>라라랜드</h1>
+    <div className="movie">
+      <div className="movie-container">
+        <div className="movie-title">
+          <h1>라라랜드</h1>
+        </div>
+        <div className="movie-note">
+          <h2>ADRGRDS</h2>
+          <h2>SDRGRDA</h2>
+          <h2>ADRGRDS</h2>
+          <h2>HGRGRDA</h2>
+          <br></br>
+          <h2>KJHJHGDR</h2>
+          <h2>JHGHGRD</h2>
+          <h2>KJHJHGRWJ</h2>
+          <br></br>
+          <h2>;LKLKJH</h2>
+          <h2>]';LKJH</h2>
+          <h2>HJHJK HJHJK</h2>
+          <h2>HJHJKHL</h2>
+        </div>
+        <audio data-key="65" src='/sounds/B3.mp3'></audio>
+        <audio data-key="68" src='/sounds/E4.mp3'></audio>
+        <audio data-key="82" src='/sounds/Gb4.mp3'></audio>
+        <audio data-key="71" src='/sounds/G4.mp3'></audio>
+        <audio data-key="83" src='/sounds/C4.mp3'></audio>
+        <audio data-key="72" src='/sounds/A4.mp3'></audio>
+        <audio data-key="74" src='/sounds/B4.mp3'></audio>
+        <audio data-key="75" src='/sounds/C5.mp3'></audio>
+        <audio data-key="87" src='/sounds/D4.mp3'></audio>
+        <audio data-key="186" src='/sounds/E5.mp3'></audio>
+        <audio data-key="76" src='/sounds/D5.mp3'></audio>
+        <audio data-key="221" src='/sounds/Ab5.mp3'></audio>
+        <audio data-key="222" src='/sounds/F5.mp3'></audio>
       </div>
-      <div className="movie-note">
-        <h3>adfgfds</h3>
-        <h3>sdfgfda</h3>
-        <h3>adfgfds</h3>
-        <h3>hgfgfda</h3>
-        <h3>kjhjhgdf</h3>
-        <h3>jhghgfd</h3>
-      </div>
-      <audio data-key="65" src='/sounds/Db4.mp3'></audio> 
-      <audio data-key="83" src='/sounds/D4.mp3'></audio>
-      <audio data-key="68" src='/sounds/Gb4.mp3'></audio>
-      <audio data-key="70" src='/sounds/Ab4.mp3'></audio>
-      <audio data-key="71" src='/sounds/A4.mp3'></audio>
-      <audio data-key="72" src='/sounds/B4.mp3'></audio>
-      <audio data-key="74" src='/sounds/Db5.mp3'></audio>
-      <audio data-key="75" src='/sounds/D5.mp3'></audio>
     </div>
   )
 }
