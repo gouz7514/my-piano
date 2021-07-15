@@ -29,36 +29,36 @@ function Home() {
     }} pagination={true} className="mySwiper">
         <SwiperSlide>
           <div className="img-container">
-            <a href="/Lalaland">
-              <img id="lalaland" src="/images/lalaland.jpeg" alt="lalaland"></img>
+            <a href="/my-piano/Lalaland">
+              <img id="lalaland" src="/my-piano/images/lalaland.jpeg" alt="lalaland"></img>
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/HowlsMovingCastle">
-              <img id="howlsmovingcaslte" src="/images/howlsmovingcastle.jpeg" alt="howlsmovingcastle"></img>
+            <a href="/my-piano/HowlsMovingCastle">
+              <img id="howlsmovingcaslte" src="/my-piano/images/howlsmovingcastle.jpeg" alt="howlsmovingcastle"></img>
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/HarryPotter">
-              <img id="harrypotter" src="/images/harrypotter.jpeg" alt="harrypotter"></img>
+            <a href="/my-piano/HarryPotter">
+              <img id="harrypotter" src="/my-piano/images/harrypotter.jpeg" alt="harrypotter"></img>
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/CinemaParadiso">
-              <img id="cinemaparadiso" src="/images/cinemaparadiso.jpeg" alt="cinemaparadiso"></img>
+            <a href="/my-piano/CinemaParadiso">
+              <img id="cinemaparadiso" src="/my-piano/images/cinemaparadiso.jpeg" alt="cinemaparadiso"></img>
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/Tiffany">
-              <img id="tiffany" src="/images/tiffany.jpeg" alt="tiffany"></img>
+            <a href="/my-piano/Tiffany">
+              <img id="tiffany" src="/my-piano/images/tiffany.jpeg" alt="tiffany"></img>
             </a>
           </div>
         </SwiperSlide>

@@ -33,15 +33,15 @@ function Tiffany() {
           <br></br>
           <h2>QDT IJH JHT HT</h2>
         </div>
-        <audio data-key="84" src='/sounds/Bb4.mp3'></audio>
-        <audio data-key="76" src='/sounds/F5.mp3'></audio>
-        <audio data-key="73" src='/sounds/Eb5.mp3'></audio>
-        <audio data-key="74" src='/sounds/D5.mp3'></audio>
-        <audio data-key="72" src='/sounds/C5.mp3'></audio>
-        <audio data-key="82" src='/sounds/Ab4.mp3'></audio>
-        <audio data-key="81" src='/sounds/Eb4.mp3'></audio>
-        <audio data-key="83" src='/sounds/F4.mp3'></audio>
-        <audio data-key="68" src='/sounds/G4.mp3'></audio>
+        <audio data-key="84" src='/my-piano/sounds/Bb4.mp3'></audio>
+        <audio data-key="76" src='/my-piano/sounds/F5.mp3'></audio>
+        <audio data-key="73" src='/my-piano/sounds/Eb5.mp3'></audio>
+        <audio data-key="74" src='/my-piano/sounds/D5.mp3'></audio>
+        <audio data-key="72" src='/my-piano/sounds/C5.mp3'></audio>
+        <audio data-key="82" src='/my-piano/sounds/Ab4.mp3'></audio>
+        <audio data-key="81" src='/my-piano/sounds/Eb4.mp3'></audio>
+        <audio data-key="83" src='/my-piano/sounds/F4.mp3'></audio>
+        <audio data-key="68" src='/my-piano/sounds/G4.mp3'></audio>
       </div>
     </div>
   )

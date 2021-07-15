@@ -34,19 +34,19 @@ function Lalaland() {
           <h2>;LKLKJH</h2><h2>]';LKJH</h2>
           <h2>HJHJK HJHJK HJHJKHL</h2>
         </div>
-        <audio data-key="65" src='/sounds/B3.mp3'></audio>
-        <audio data-key="68" src='/sounds/E4.mp3'></audio>
-        <audio data-key="82" src='/sounds/Gb4.mp3'></audio>
-        <audio data-key="71" src='/sounds/G4.mp3'></audio>
-        <audio data-key="83" src='/sounds/C4.mp3'></audio>
-        <audio data-key="72" src='/sounds/A4.mp3'></audio>
-        <audio data-key="74" src='/sounds/B4.mp3'></audio>
-        <audio data-key="75" src='/sounds/C5.mp3'></audio>
-        <audio data-key="87" src='/sounds/D4.mp3'></audio>
-        <audio data-key="186" src='/sounds/E5.mp3'></audio>
-        <audio data-key="76" src='/sounds/D5.mp3'></audio>
-        <audio data-key="221" src='/sounds/Ab5.mp3'></audio>
-        <audio data-key="222" src='/sounds/F5.mp3'></audio>
+        <audio data-key="65" src='/my-piano/sounds/B3.mp3'></audio>
+        <audio data-key="68" src='/my-piano/sounds/E4.mp3'></audio>
+        <audio data-key="82" src='/my-piano/sounds/Gb4.mp3'></audio>
+        <audio data-key="71" src='/my-piano/sounds/G4.mp3'></audio>
+        <audio data-key="83" src='/my-piano/sounds/C4.mp3'></audio>
+        <audio data-key="72" src='/my-piano/sounds/A4.mp3'></audio>
+        <audio data-key="74" src='/my-piano/sounds/B4.mp3'></audio>
+        <audio data-key="75" src='/my-piano/sounds/C5.mp3'></audio>
+        <audio data-key="87" src='/my-piano/sounds/D4.mp3'></audio>
+        <audio data-key="186" src='/my-piano/sounds/E5.mp3'></audio>
+        <audio data-key="76" src='/my-piano/sounds/D5.mp3'></audio>
+        <audio data-key="221" src='/my-piano/sounds/Ab5.mp3'></audio>
+        <audio data-key="222" src='/my-piano/sounds/F5.mp3'></audio>
       </div>
     </div>
   )
