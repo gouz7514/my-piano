@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import '../css/Home.css';
 
 // Import Swiper React components
@@ -16,7 +17,6 @@ import SwiperCore, {
 // install Swiper modules
 SwiperCore.use([EffectCoverflow,Pagination]);
 
-
 function Home() {
   return (
     <>
@@ -29,37 +29,37 @@ function Home() {
     }} pagination={true} className="mySwiper">
         <SwiperSlide>
           <div className="img-container">
-            <a href="/my-piano/Lalaland">
+            <Link to="/my-piano/Lalaland">
               <img id="lalaland" src="/my-piano/images/lalaland.jpeg" alt="lalaland"></img>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/my-piano/HowlsMovingCastle">
+            <Link to="my-piano/HowlsMovingCastle">
               <img id="howlsmovingcaslte" src="/my-piano/images/howlsmovingcastle.jpeg" alt="howlsmovingcastle"></img>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/my-piano/HarryPotter">
+            <Link to="/my-piano/Harrypotter">
               <img id="harrypotter" src="/my-piano/images/harrypotter.jpeg" alt="harrypotter"></img>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/my-piano/CinemaParadiso">
+            <Link to="/my-piano/CinemaParadiso">
               <img id="cinemaparadiso" src="/my-piano/images/cinemaparadiso.jpeg" alt="cinemaparadiso"></img>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/my-piano/Tiffany">
+            <Link to="/my-piano/Tiffany">
               <img id="tiffany" src="/my-piano/images/tiffany.jpeg" alt="tiffany"></img>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
       </Swiper>
