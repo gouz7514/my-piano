@@ -36,7 +36,7 @@ function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <Link to="my-piano/HowlsMovingCastle">
+            <Link to="/my-piano/HowlsMovingCastle">
               <img id="howlsmovingcaslte" src="/my-piano/images/howlsmovingcastle.jpeg" alt="howlsmovingcastle"></img>
             </Link>
           </div>
