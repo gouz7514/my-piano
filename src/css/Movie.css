@@ -23,9 +23,19 @@
   background-image: url('../gifs//harrypotter.gif');
 }
 
+.movie.cinemaparadiso {
+  background-image: url('../gifs/cinemaparadiso.gif');
+}
+
+.movie.tiffany {
+  background-image: url('../gifs//tiffany.gif');
+}
+
 .movie.howlsmovingcastle > .movie-container,
 .movie.lalaland > .movie-container,
-.movie.harrypotter > .movie-container {
+.movie.harrypotter > .movie-container,
+.movie.cinemaparadiso > .movie-container,
+.movie.tiffany > .movie-container {
   background-color: white;
   opacity: 0.7;
 }
@@ -33,14 +43,20 @@
 .movie-container {
   display: flex;
   width: 500px;
-  height: 90%;
+  height: 70%;
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
 }
 
 .movie-title {
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.movie-title img {
+  height: 100%;
+  width: 50%;
 }
 
 .movie-note {

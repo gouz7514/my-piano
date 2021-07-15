@@ -57,8 +57,8 @@ function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-container">
-            <a href="/TheClassic">
-              <img id="theclassic" src="/images/theclassic.jpeg" alt="theclassic"></img>
+            <a href="/Tiffany">
+              <img id="tiffany" src="/images/tiffany.jpeg" alt="tiffany"></img>
             </a>
           </div>
         </SwiperSlide>

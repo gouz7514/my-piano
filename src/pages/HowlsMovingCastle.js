@@ -22,7 +22,7 @@ function HowlsMovingCastle() {
     <div className="movie">
       <div className="movie-container">
         <div className="movie-title">
-          <h1>하울의 움직이는 성</h1>
+          <img src="images/howlsmovingcastle_logo.png" alt="howlsmovingcastle_logo"></img>
         </div>
         <div className="movie-note">
           <h2>ADTJ HTFT</h2>

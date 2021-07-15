@@ -21,22 +21,18 @@ function Lalaland() {
     <div className="movie">
       <div className="movie-container">
         <div className="movie-title">
-          <h1>라라랜드</h1>
+          <img src="images/lalaland_logo.png" alt="lalaland_logo"></img>
         </div>
         <div className="movie-note">
-          <h2>ADRGRDS</h2>
-          <h2>SDRGRDA</h2>
-          <h2>ADRGRDS</h2>
-          <h2>HGRGRDA</h2>
+          <h2>ADRGRDS SDRGRDA</h2>
+          <h2>ADRGRDS HGRGRDA</h2>
           <br></br>
-          <h2>KJHJHGDR</h2>
+          <h2>KJHJHGD R</h2>
           <h2>JHGHGRD</h2>
-          <h2>KJHJHGRWJ</h2>
+          <h2>KJHJHGR WJ</h2>
           <br></br>
-          <h2>;LKLKJH</h2>
-          <h2>]';LKJH</h2>
-          <h2>HJHJK HJHJK</h2>
-          <h2>HJHJKHL</h2>
+          <h2>;LKLKJH</h2><h2>]';LKJH</h2>
+          <h2>HJHJK HJHJK HJHJKHL</h2>
         </div>
         <audio data-key="65" src='/sounds/B3.mp3'></audio>
         <audio data-key="68" src='/sounds/E4.mp3'></audio>

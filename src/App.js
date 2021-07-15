@@ -4,7 +4,7 @@ import Lalaland from './pages/Lalaland';
 import HowlsMovingCastle from './pages/HowlsMovingCastle'
 import HarryPotter from './pages/HarryPotter'
 import CinemaParadiso from './pages/CinemaParadiso'
-import TheClassic from './pages/TheClassic';
+import Tiffany from './pages/Tiffany';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path='/HowlsMovingCastle' component={HowlsMovingCastle}/>
         <Route path='/HarryPotter' component={HarryPotter}/>
         <Route path='/CinemaParadiso' component={CinemaParadiso}/>
-        <Route path='/TheClassic' component={TheClassic}/>
+        <Route path='/Tiffany' component={Tiffany}/>
       </Switch>
       </Router>
     </div>
