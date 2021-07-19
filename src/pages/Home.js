@@ -62,6 +62,13 @@ function Home() {
             </a>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="img-container">
+            <a href="/my-piano/Amelie">
+              <img id="amelie" src="/my-piano/images/amelie.jpeg" alt="amelie"></img>
+            </a>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );

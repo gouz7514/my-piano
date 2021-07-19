@@ -5,6 +5,7 @@ import HowlsMovingCastle from './pages/HowlsMovingCastle'
 import HarryPotter from './pages/HarryPotter'
 import CinemaParadiso from './pages/CinemaParadiso'
 import Tiffany from './pages/Tiffany';
+import Amelie from './pages/Amelie';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/my-piano/HarryPotter' component={HarryPotter}/>
         <Route path='/my-piano/CinemaParadiso' component={CinemaParadiso}/>
         <Route path='/my-piano/Tiffany' component={Tiffany}/>
+        <Route path='/my-piano/Amelie' component={Amelie}/>
       </Switch>
       </Router>
     </div>

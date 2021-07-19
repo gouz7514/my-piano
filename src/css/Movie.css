@@ -31,11 +31,16 @@
   background-image: url('../gifs//tiffany.gif');
 }
 
+.movie.amelie {
+  background-image: url('../gifs//amelie.gif');
+}
+
 .movie.howlsmovingcastle > .movie-container,
 .movie.lalaland > .movie-container,
 .movie.harrypotter > .movie-container,
 .movie.cinemaparadiso > .movie-container,
-.movie.tiffany > .movie-container {
+.movie.tiffany > .movie-container,
+.movie.amelie > .movie-container {
   background-color: white;
   opacity: 0.7;
 }
